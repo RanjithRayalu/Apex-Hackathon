@@ -44,7 +44,7 @@ async def add_new_resume(request: Request):
 async def send_email(request: Request):
     request =  await request.json()
     response = send_mail(sender_email="rahultejmora18@gmail.com",
-                        sender_password="wcbo xeye rjie fatl",
+                        sender_password="wcbo xeye xxxx xxxx",
                         candidate_email=request["Email"],
                         candidate_name= request["Name"],
                         position=request["Position"],
